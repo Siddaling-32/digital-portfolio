@@ -101,13 +101,18 @@ nav {
    THEME TOGGLE
 ================================ */
 
+.nav-controls {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
 #theme-toggle {
     border: none;
     background: transparent;
     color: var(--text-color);
     font-size: 1.2rem;
     cursor: pointer;
-    margin-left: 15px;
 }
 
 
